@@ -16,6 +16,7 @@ MonoBehaviour:
   - {fileID: 114229970246630708}
   - {fileID: 114149610312990638}
   - {fileID: 114494575955170942}
+  identity: {fileID: 0}
 --- !u!114 &114149610312990638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -48,8 +49,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 17d1008b78cb6e846889b7778282fbef, type: 3}
-  m_Name: AssetBundleDefs
+  m_Name: AssetBundleDefinitions
   m_EditorClassIdentifier: 
+  Errored: 0
+  ErrorMessage: 
   StagingPaths:
   - <ManifestPluginStaging>
   assetBundles:
@@ -67,6 +70,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2b7e13dda513544419a89926bd12ad8a, type: 3}
   m_Name: AssemblyDefinitions
   m_EditorClassIdentifier: 
+  Errored: 0
+  ErrorMessage: 
   StagingPaths:
   - <ManifestPluginStaging>
   definitions:
